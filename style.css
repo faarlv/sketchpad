@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(49, 51, 56);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.header {
+  text-align: center;
+}
+.header h1 {
+  color: white;
+}
+.sketchpad {
+  display: flex;
+
+  border: 2px solid black;
+  text-align: center;
+  height: 550px;
+  width: 550px;
+}
+.sketchers div {
+  border: 1px solid rgb(175, 175, 175);
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.menu div {
+  background-color: rgb(171, 170, 173);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.menu div input {
+  height: 25px;
+  width: 25px;
+  border-radius: 8px;
+}
+.menu div:hover {
+  background-color: rgb(88, 89, 91);
+  color: white;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: antiquewhite;
+}
