@@ -61,4 +61,5 @@ body {
   justify-content: center;
   gap: 10px;
   color: antiquewhite;
+  font-family: monospace;
 }
