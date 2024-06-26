@@ -73,7 +73,7 @@ let createGrid = (row, cell) => {
 header.classList.add("header");
 sketchpad.classList.add("sketchpad");
 footer.classList.add("footer");
-h1.textContent = "SKATCHPAD";
+h1.textContent = "SKETCHPAD";
 h2.textContent = "created by faarlv";
 menu.classList.add("menu");
 btn1.textContent = "Edit Grid";
